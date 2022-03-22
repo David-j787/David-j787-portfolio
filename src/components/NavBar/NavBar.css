@@ -1,0 +1,49 @@
+.contenedor_nav{
+    background: linear-gradient(to right, rgb(115, 183, 243), rgb(148, 205, 251), rgb(153, 217, 236), rgb(234, 248, 255));
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+}
+
+#name{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(14, 88, 107);
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.info{
+    position: relative;
+    bottom: 5px;
+    margin-right: 10px;
+}
+
+.info_icons{
+    margin-right: 5px;
+}
+
+.icons_tec{
+    width: 25px;
+    height: 25px;
+    margin-right: 2vw;
+    display: none;
+}
+
+
+@media (max-width: 800px){
+    .info{
+        display: none;
+    }
+    .info_icons{
+        display: none;
+    }
+    .icons_tec{
+        display:initial;
+    }
+}
