@@ -6,15 +6,15 @@ import food from './App_food.png'
 const proyects = [{
     name: 'Countries App',
     img: countries,
-    href: 'https://deploy-countries-countries.vercel.app/'
+    href: 'https://deploy-countries-countries.vercel.app'
 },{
     name: 'Learnzilla',
     img: learnzilla,
-    href: 'https://learnzilla-app.vercel.app/'
+    href: 'https://learnzilla-app.vercel.app'
 },{
     name: 'Mars Rovers',
     img: mars,
-    href: 'https://github.com/David-j787/Marsrovers'
+    href: 'https://marsrovers-nine.vercel.app'
 }, {
     name: 'App Food',
     img: food,
