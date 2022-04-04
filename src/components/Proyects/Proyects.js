@@ -8,7 +8,7 @@ export default function Proyects(){
 
     return(
         <div className='main_cntainer_proyects'>
-            <h1 className='proyects_title'>Mis proyectos</h1>
+            <h1 className='proyects_title'>My Projects</h1>
             {
                 proyects.map(p => {
                     return(

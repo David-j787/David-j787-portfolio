@@ -12,10 +12,10 @@ export default function About(){
                     <img id="foto_perfil" src={foto}/>
                 </div>
                 <a className="about_txt">
-                    Hola mi nombre completo es David Murga Pereyra y soy Full Stack Web Developer (React - Node).
-                    He estado desarrollando algoritmos e interfaces web por más de un año y actualmente estoy buscando crecer
-                    profesionalmente en el rubro. Tengo una fuerte inclinación a resolver problemas y a proveer de todo 
-                    mi talento para ser un gran aporte en todos los desafíos que se me propongan. 
+                    Hi, my entire name is David Murga Pereyra and I'm a Full Stack Developer (React, Node).
+                    I've been developing algorithms and web interfaces for more than a year and currently I'm searching for 
+                    new oppotunities of grow in this market. I have a strong dedication for solving problems and I'm always 
+                    excited to provide all my knowledge and talent for every challenge that comes to me. 
                 </a>
             </div>
         </div>
