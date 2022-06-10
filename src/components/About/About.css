@@ -52,6 +52,7 @@
         text-align: center;
     }
     #foto_perfil{
+        justify-content: center;
         margin-right: 0px;
     }    
 }

@@ -11,7 +11,7 @@ export default function NavBar(){
     return(
         <nav className='contenedor_nav'>
             <div>
-                <a id='name'>David Pereyra</a>
+                <a id='name'>Portfolio</a>
                 <a className='info_icons'><LocalPhoneIcon fontSize='small'/></a>
                 <a className='info'>+54 388-5968905</a>
                 <a className='info_icons'><EmailIcon fontSize='small'/></a>

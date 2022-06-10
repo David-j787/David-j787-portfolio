@@ -1,27 +1,31 @@
 .contenedor_nav{
-    background: linear-gradient(to right, rgb(115, 183, 243), rgb(148, 205, 251), rgb(153, 217, 236), rgb(234, 248, 255));
+    background-color: #0e1618;
     height: 75px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    top: 0%;
     z-index: 100;
+    color: #d9e2e5;
 }
 
 #name{
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 700;
-    color: rgb(14, 88, 107);
+    color: #c9cbcc;
     margin-left: 2vw;
     margin-right: 2vw;
+    -webkit-text-stroke: 1px #7a7c7d;
 }
 
 .info{
     position: relative;
     bottom: 5px;
     margin-right: 10px;
+    color: #d9e2e5;
 }
 
 .info_icons{
