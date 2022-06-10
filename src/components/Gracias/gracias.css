@@ -10,12 +10,18 @@
 }
 
 .img_gracias{
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: auto;
 }
 
 .txt_gracias{
     color: rgb(3, 53, 53);
     text-align: center;
     -webkit-text-stroke: 1px #8a9da7;
+}
+
+@media (max-width: 800px){
+    .img_gracias{
+        width: 100%;
+    }
 }
